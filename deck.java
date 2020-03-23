@@ -33,7 +33,7 @@ public class Deck {
 
     public ard drawFromDeck()
     {
-      return cards.remove(csrds.size()-1);
+      return cards.remove(cards.size()-1);
     }
 
     public int getTotalCards()
