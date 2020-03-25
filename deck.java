@@ -31,14 +31,13 @@ public class Deck {
         }
     }
 
-    public ard drawFromDeck()
-    {
-      return cards.remove(cards.size()-1);
+    public Card drawFromDeck()
+    {       
+        return cards.remove( cards.size()-1 );
     }
 
     public int getTotalCards()
     {
-      return cards.size();
-
+        return cards.size();
     }
 }
