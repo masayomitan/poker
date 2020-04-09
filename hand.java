@@ -52,7 +52,7 @@ public class Hand {
                      sameCards2 = ranks[x];
                      smallGroupRank = x;
                  }
-        }
+                }
 
         if (ranks[1]==1)
         {
